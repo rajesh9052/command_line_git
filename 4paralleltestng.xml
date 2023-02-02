@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="Test">
+    <classes>
+      <class name="practise.Create_Sales_order"/>
+      </classes>
+  </test>
+    <test name="test1">
+    <classes>
+      <class name="Campaign.Create_campaign"/>
+      </classes>
+  </test>
+    <test name="test2">
+    <classes>
+      <class name="Campaign.create_campaign_and_product_mam_said"/>
+      </classes>
+  </test>
+  <test name="test3">
+    <classes>
+      <class name="practise.creating_contacts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
