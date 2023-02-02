@@ -30,7 +30,7 @@ public class Base_class {
 	@BeforeTest(alwaysRun = true)
 	public void BT()
 	{
-		System.out.println("Paralllel Execution");
+		System.out.println("Paralllel Execution"); // pushed 1st commit
 	}
 	
 	// @Parameters("Browser")
