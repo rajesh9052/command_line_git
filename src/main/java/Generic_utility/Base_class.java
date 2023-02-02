@@ -96,6 +96,6 @@ public class Base_class {
 	@AfterSuite(alwaysRun = true)
     public void AS()
     {
-    	System.out.println("close data base connection");
+    	System.out.println("close data base connection");//pulled 
     }
 }
